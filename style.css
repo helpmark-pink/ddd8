@@ -605,47 +605,47 @@ footer {
     visibility: visible;
     opacity: 1;
   }
-}
 
-.header-content {
-  padding: 1rem;
-}
+  .header-content {
+    padding: 1rem;
+  }
 
-.logo {
-  font-size: 1.5rem;
-}
+  .logo {
+    font-size: 1.5rem;
+  }
 
-.hero-section {
-  margin-top: 60px;
-}
+  .hero-section {
+    margin-top: 60px;
+  }
 
-.image-container {
-  width: 250px;
-  height: 250px;
-}
+  .image-container {
+    width: 250px;
+    height: 250px;
+  }
 
-.heart-shape,
-.heart-shape:before,
-.heart-shape:after {
-  width: 250px;
-  height: 250px;
-}
+  .heart-shape,
+  .heart-shape:before,
+  .heart-shape:after {
+    width: 250px;
+    height: 250px;
+  }
 
-.title-animation {
-  font-size: 2rem;
-}
+  .title-animation {
+    font-size: 2rem;
+  }
 
-.section-title {
-  font-size: 2rem;
-}
+  .section-title {
+    font-size: 2rem;
+  }
 
-.products-grid {
-  grid-template-columns: 1fr;
-  padding: 0 1rem;
-}
+  .products-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
 
-.container {
-  padding: 0 1rem;
+  .container {
+    padding: 0 1rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -667,5 +667,136 @@ footer {
 
   .section-title {
     font-size: 1.5rem;
+  }
+
+  .product-card {
+    margin: 0 0.5rem;
+  }
+
+  .product-image {
+    height: 200px;
+  }
+
+  .btn-view {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .contact-content p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .hamburger span {
+    width: 20px;
+    height: 2px;
+  }
+
+  .image-container {
+    width: 160px;
+    height: 160px;
+  }
+
+  .heart-shape,
+  .heart-shape:before,
+  .heart-shape:after {
+    width: 160px;
+    height: 160px;
+  }
+
+  .title-animation {
+    font-size: 1.2rem;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .product-card {
+    margin: 0 0.3rem;
+  }
+
+  .product-image {
+    height: 180px;
+  }
+
+  .product-card h3 {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .product-card p {
+    font-size: 0.9rem;
+    padding: 0 0.8rem 0.8rem;
+  }
+
+  .btn-view {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.8rem;
+  }
+
+  .mobile-nav-menu li a {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .about-content p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .contact-content p {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-info p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .image-container {
+    width: 140px;
+    height: 140px;
+  }
+
+  .heart-shape,
+  .heart-shape:before,
+  .heart-shape:after {
+    width: 140px;
+    height: 140px;
+  }
+
+  .title-animation {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.1rem;
+  }
+
+  .product-image {
+    height: 160px;
+  }
+
+  .mobile-nav-menu li {
+    margin: 1.5rem 0;
+  }
+
+  .mobile-nav-menu li a {
+    font-size: 1.1rem;
+    padding: 0.7rem 1.3rem;
   }
 }
