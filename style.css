@@ -5,12 +5,21 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(135deg, #e8d5ff 0%, #f0e6ff 50%, #e8d5ff 100%);
+  background-attachment: fixed;
   min-height: 100vh;
+  height: 100%;
+  width: 100%;
   overflow-x: hidden;
   position: relative;
+  -webkit-overflow-scrolling: touch;
 }
 
 .container {
